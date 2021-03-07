@@ -14,7 +14,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Summary
 The analysis of the election show that:
-- There were 369,711 votes cast in the election.
+- There were 369,711 total votes cast in the election.
 - The candidates were:
   - Candidate 1: Charles Casper Stockham
   - Candidate 2: Diana DeGette
@@ -55,13 +55,16 @@ The current script is written to create a summary text file of the election resu
 
 The script could be modified to show more specific information:
 - Modification One:   The script could be modified to ask users to input a specific county.   The program would then return the county specific election details.
-  - Input Code would be: county_selection = str(input("What county would you like election details on?")
+  - Input Code would be: `county_selection = str(input("What county would you like election details on?")`
   - Code would also have to be developed with an if/else statement to ensure only counties in the list are acceptable values.
-  - Code would reference current dictionary based on input of user to pull the appropriate statistics.
+  - Code would reference current dictionary values based on input of user to pull the appropriate statistics and return details of county_selection to the terminal.
 
-- Modification Two:  The modification script above could be modified to include a list (example:  Jefferson = 1, Denver = 2, Arapahoe = 3) so that the user is forced to pick from the list.   This would result in no need for the if/else statement to determine valid input.
+- Modification Two:  The modification script above could be modified to include a list (example:  Jefferson = 1, Denver = 2, Arapahoe = 3) so that the user can pick from the list using an integer.   This would simplify the if/else logic to ensure acceptable values are entered when picking from a list versus typing a county name as typing a name would have to account for misspellings and capitalization differences. 
 
 -Modification Three:  The script could be used to find more specific demographic data.
   - The election_results.csv file would be updated for additional columns. 
   - The script could then be modified to run off those columns to calculate different demographics. 
-  - Example: If a new column with party, race, age were added the code would pull the data using the following identifier:  voter_party = row[3]
+  - Example: If new columns with party, race, and age were added, the code would pull the data using the following identifiers:  
+    - `voter_party = row[3]`
+    - `voter_race = row[4]`
+    - `voter_age = row[5]`
