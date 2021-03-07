@@ -61,7 +61,7 @@ The script could be modified to show more specific information:
 
 - Modification Two:  The modification script above could be modified to include a list (example:  Jefferson = 1, Denver = 2, Arapahoe = 3) so that the user can pick from the list using an integer.   This would simplify the if/else logic to ensure acceptable values are entered when picking from a list versus typing a county name as typing a name would have to account for misspellings and capitalization differences. 
 
--Modification Three:  The script could be used to find more specific demographic data.
+- Modification Three:  The script could be used to find more specific demographic data.
   - The election_results.csv file would be updated for additional columns. 
   - The script could then be modified to run off those columns to calculate different demographics. 
   - Example: If new columns with party, race, and age were added, the code would pull the data using the following identifiers:  
