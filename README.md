@@ -61,4 +61,7 @@ The script could be modified to show more specific information:
 
 - Modification Two:  The modification script above could be modified to include a list (example:  Jefferson = 1, Denver = 2, Arapahoe = 3) so that the user is forced to pick from the list.   This would result in no need for the if/else statement to determine valid input.
 
--Modification Three:  
+-Modification Three:  The script could be used to find more specific demographic data.
+  - The election_results.csv file would be updated for additional columns. 
+  - The script could then be modified to run off those columns to calculate different demographics. 
+  - Example: If a new column with party, race, age were added the code would pull the data using the following identifier:  voter_party = row[3]
