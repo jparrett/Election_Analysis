@@ -51,4 +51,14 @@ The analysis of the county election data show that:
 <img src="/resources/results.png" width="600"> [results.png](/resources/results.png)
   
 ## Challenge Summary
+The current script is written to create a summary text file of the election results.  
 
+The script could be modified to show more specific information:
+- Modification One:   The script could be modified to ask users to input a specific county.   The program would then return the county specific election details.
+  - Input Code would be: county_selection = str(input("What county would you like election details on?")
+  - Code would also have to be developed with an if/else statement to ensure only counties in the list are acceptable values.
+  - Code would reference current dictionary based on input of user to pull the appropriate statistics.
+
+- Modification Two:  The modification script above could be modified to include a list (example:  Jefferson = 1, Denver = 2, Arapahoe = 3) so that the user is forced to pick from the list.   This would result in no need for the if/else statement to determine valid input.
+
+-Modification Three:  
