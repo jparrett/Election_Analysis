@@ -43,7 +43,7 @@ The analysis of the county election data show that:
 - The county with the highest turnout was:
   - County 2, Denver, who cast 82.8% of the votes and 306,055 number of votes.
 
-<img src="/Resources/results.png" width="600"> [results.png](/Resources/results.png)
+<img src="/resources/results.png" width="600"> [results.png](/resources/results.png)
   
 ## Challenge Overview
 
