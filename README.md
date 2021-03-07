@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 ## Project Overview
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congresional election.
 
@@ -7,10 +7,6 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
-6. Get a complete list of the counties that cast votes.
-7. Calculate the total number of votes cast by each county.
-8. Calclulate the percentage of votes cast by each county.
-9. Determine the county with the highest turnout.
 
 ## Resources
 - Data Source:  election_results.csv
@@ -30,6 +26,15 @@ The analysis of the election show that:
 - The winner of the election was:
   - Candidate 2, Diana DeGette, who received 73.8% of the vote and 272,892 number of votes
 
+## Challenge Overview
+A Colorado Board of Elections employee has given you the following additional tasks to complete the election audit of a recent local congresional election.
+
+1. Get a complete list of the counties that cast votes.
+2. Calculate the total number of votes cast by each county.
+3. Calclulate the percentage of votes cast by each county.
+4. Determine the county with the highest turnout.
+
+## County Summary
 The analysis of the county election data show that:
 - There were three counties voting in the election.
 - The counties were:
@@ -45,6 +50,5 @@ The analysis of the county election data show that:
 
 <img src="/resources/results.png" width="600"> [results.png](/resources/results.png)
   
-## Challenge Overview
-
 ## Challenge Summary
+
