@@ -51,7 +51,7 @@ The analysis of the county election data show that:
 <img src="/resources/results.png" width="400"> [results.png](/resources/results.png)
   
 ## Challenge Summary
-The current script is written to create a summary text file of the election results.  
+The current script is written to create a summary text file of the election results.  Because the script reads through potential candidates and counties without hardcoding their names, this script could be used to evaluate any election from any state as long as the .csv file is formatted like the election_results.csv file used in this project.
 
 The script could be modified to show more specific information:
 - Modification One:   The script could be modified to ask users to input a specific county.   The program would then return the county specific election details.
