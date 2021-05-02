@@ -67,4 +67,4 @@ The script could be modified to show more specific information:
   - Example: If new columns with party, race, and age were added, the code would pull the data using the following identifiers:  
     - `voter_party = row[3]`
     - `voter_race = row[4]`
-    - `voter_age = row[5]`
+    - `voter_age = row[5]` 
